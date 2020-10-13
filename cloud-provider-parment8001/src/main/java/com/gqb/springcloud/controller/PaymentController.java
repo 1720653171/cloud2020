@@ -10,4 +10,10 @@ public class PaymentController {
     public String Test(){
         return "sucess";
     }
+
+    @RequestMapping("/test2")
+    public String Test2() {
+
+        return "2222";
+    }
 }
