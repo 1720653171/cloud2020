@@ -16,4 +16,10 @@ public class PaymentController {
 
         return "2222";
     }
+
+    @RequestMapping("/test3")
+    public String Test3() {
+
+        return "2223";
+    }
 }
