@@ -16,7 +16,8 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping(value = "/payment/insert")
-    public CommonResult insert(@RequestBody(required=false) Payment payment){
+    public CommonResult insert(@RequestBody(required = false) Payment payment){
+        log.info("*****插入d对象为："+payment);
         int result = paymentService.insert(payment);
         log.info("*****插入结果："+result);
         if(result>0){
