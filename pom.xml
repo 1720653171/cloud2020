@@ -9,6 +9,8 @@
   <modules>
     <module>cloud-provider-parment8001</module>
     <module>cloud-comsumer-order80</module>
+    <module>cloud-api-commons</module>
+    <module>cloud-Eureka-server7001</module>
   </modules>
   <packaging>pom</packaging>
 
